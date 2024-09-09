@@ -1,0 +1,108 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f4f8;
+    background-image: url('https://lifewithnicolellc.com/cdn/shop/products/image_8c95c313-fdfa-4556-9fc4-b7739019f238.jpg?v=1680359966');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    background-size: cover; /* Cover the entire page */
+    border-radius: 50%;
+}
+
+#h1{
+    background-color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    color: #0e0d0d;
+}
+
+/* Container for body content */
+.container {
+    display: flex;
+    justify-content: flex-end; /* Aligns the form to the right */
+    margin-right: 20px; /* Add spacing from the right edge */
+}
+
+form{
+    max-width: 600px;
+    background-color:wheat;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+    margin-left: auto; /* Automatically aligns the form to the right */
+}
+
+fieldset{
+    border: 20px solid rgb(44, 35, 35);
+    border-radius: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+    
+}
+
+legend{
+    font-weight: bold;
+    text-align: left;
+    color:#202020;
+}
+
+label{
+    display: block;
+    margin-top: 10px;
+    color:#131212;
+}
+
+input, textarea{
+    width: calc(100% - 1px);
+    padding:8px;
+    margin-top: 4px;
+    box-sizing: border-box;
+}
+
+button{
+    display: block;
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(129, 73, 73);
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: auto;
+}
+
+button:hover{
+    background-color: rgb(27, 31, 31);
+}
+
+#resumeOutput{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid brown;
+    border-radius: 8px;
+    background-color: #717c7c;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+#resumeOutput h2{
+    color: brown;
+}
+.profilepicture{
+    display: block;
+    margin: o auto;
+    border: 2px solid rgb(68, 47, 47);
+    box-shadow: 4px 8px rgba(0,0,0,0.5);
+    border-radius: 500%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
